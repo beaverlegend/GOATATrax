@@ -27,7 +27,7 @@ HEAD_CONTROL = {0, 7, 8, 9, 10}
 RELEVANT = LOWER_BODY | HEAD_CONTROL
 
 options = PoseLandmarkerOptions(
-    base_options=BaseOptions(model_asset_path="pose_landmarker.task"),
+    base_options=BaseOptions(model_asset_path="models/pose_landmarker.task"),
     running_mode=VisionRunningMode.VIDEO
 )
 
