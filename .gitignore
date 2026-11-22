@@ -1,0 +1,9 @@
+# Project virtual environment (each computer makes its own)
+.venv/
+
+# Video clips — large files, and footage of real people
+clips/
+
+# Python cache files
+__pycache__/
+*.pyc
